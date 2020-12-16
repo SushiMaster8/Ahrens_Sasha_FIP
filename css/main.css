@@ -12,6 +12,14 @@
 	background-color: #f7f7f7;
 }
 
+#container2
+{
+	width: 1300px;
+	height: 1250px;
+	margin: 10px auto;
+	background-color: #f7f7f7;
+}
+
 
 /*Top Header for Home Page*/
 /*background*/
@@ -277,7 +285,11 @@
 }
 
 
+
 /*DIVISIONS AND TEAMS PAGE*/
+
+
+
 
 .title
 {
@@ -477,3 +489,199 @@
 {
 	color: #27c6f9;
 }
+
+
+
+
+/*CONTACT US PAGE*/
+
+
+
+.contactitems
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.leftcontact
+{
+	width: 600px;
+	height: 800px;
+	background-color: #fd1313;
+	margin-left: 20px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.news
+{
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.newsletter
+{
+	text-align: center;
+	font-size: 34px;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form [type=text]
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #000000;
+	color: #ffffff;
+	align-content: center;
+}
+
+.names
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 100px;
+}
+
+.firstname
+{
+	margin-left: 95px;
+}
+
+.lastname
+{
+	margin-left: 75px;
+}
+
+.email
+{
+	display: flex;
+	flex direction: row;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 400px;
+	padding-top: 8px;
+}
+
+.message
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 8px;
+}
+
+.message textarea
+{
+	width: 400px;
+	height: 100px;
+	background-color: #000000;
+	color: #ffffff;
+	resize: none;
+}
+
+.security
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	padding-top: 8px
+}
+
+.headersecure
+{
+	color: #ffffff;
+	padding-bottom: 8px;
+}
+
+.answer
+{
+	margin-bottom: 8px;
+}
+
+.button
+{
+	margin-left: 150px;
+	margin-right: 250px
+	background-color: black;
+	color: black;
+}
+
+.rightcontact
+{
+	width: 600px;
+	height: 800px;
+	background-color: #fd1313;
+	margin-right: 20px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.maphead
+{
+	text-align: center;
+	font-size: 36px;
+	color: #ffffff;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+#googlemap ul
+{
+	color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+}
+
+#googlemap iframe
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.callme
+{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.callme2
+{
+	border-radius: 10px;
+}
+
+.phonenumba
+{
+	margin-bottom: 0px;
+}
+
+.numba
+{
+	margin-top: 5px;
+}
+
+.textblock2
+{
+	position: absolute;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	color: #f1f1f1;
+	width: 150px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 250px;
+	padding: 0px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 10px;
+}
+
