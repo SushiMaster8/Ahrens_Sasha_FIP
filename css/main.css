@@ -275,3 +275,205 @@
 	margin-left: 30px;
 	margin-top: 25px;
 }
+
+
+/*DIVISIONS AND TEAMS PAGE*/
+
+.title
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: red;
+	margin-top: 10px;
+}
+
+.title span:nth-of-type(even){
+    color:red;
+}
+.title span:nth-of-type(odd){
+    color:black;
+}
+
+
+.main2
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.net
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.maincontent
+{
+	width: 350px;
+	height: 510px;
+	background-color: #272626;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+.mainheader
+{
+	text-align: center;
+	color: #f7f7f7;
+	font-size: 42px;
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+
+.maincontent p
+{
+	color: #f7f7f7;
+	font-size: 30px;
+	text-align: center;
+}
+
+.bottomimages
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.image1
+{
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+.image1 img
+{
+	transition: transform .5s ease;
+}
+
+.image1:hover img
+{
+	transform: scale(1.4);
+}
+
+.image2
+{
+	overflow: hidden;
+}
+
+.image2 img
+{
+	transition: transform .5s ease;
+}
+
+.image2:hover img
+{
+	transform: scale(1.4);
+}
+
+.image3
+{
+	overflow: hidden;
+}
+
+.image3 img
+{
+	transition: transform .5s ease;
+}
+
+.image3:hover img
+{
+	transform: scale(1.4);
+}
+
+.image4
+{
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+.image4 img
+{
+	transition: transform .5s ease;
+}
+
+.image4:hover img
+{
+	transform: scale(1.4);
+}
+
+.bottomheaders
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.box1
+{
+	width: 300px;
+	height: 400px;
+	background-color: #fd2727;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.box2
+{
+	width: 300px;
+	height: 400px;
+	background-color: #fd2727;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.box3
+{
+	width: 300px;
+	height: 400px;
+	background-color: #fd2727;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.box4
+{
+	width: 300px;
+	height: 400px;
+	background-color: #fd2727;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.boxheader
+{
+	color: #f7f7f7;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.blurbs
+{
+	color: #f7f7f7;
+	text-align: left;
+	font-size: 26px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.blurbs a
+{
+	color: #27c6f9;
+}
