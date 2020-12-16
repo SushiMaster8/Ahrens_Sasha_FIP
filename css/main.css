@@ -560,7 +560,7 @@
 .email
 {
 	display: flex;
-	flex direction: row;
+	flex-direction: row;
 	margin-left: 100px;
 	margin-right: 100px;
 	width: 400px;
@@ -609,8 +609,8 @@
 .button
 {
 	margin-left: 150px;
-	margin-right: 250px
-	background-color: black;
+	margin-right: 250px;
+	background-color: white;
 	color: black;
 }
 
